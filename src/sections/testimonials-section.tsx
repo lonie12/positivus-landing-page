@@ -10,7 +10,7 @@ const TestimonialsSection = () => {
                 title="Testimonials"
                 description="Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services"
             />
-            <div className="flex gap-10 py-[68px] mt-20 rounded-largeRadius bg-secondary overflow-hidden">
+            <div className="flex gap-10 py-[60px] mt-20 rounded-largeRadius bg-secondary overflow-hidden">
                 <Testimonial />
                 <Testimonial />
                 <Testimonial />

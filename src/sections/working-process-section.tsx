@@ -16,7 +16,7 @@ const WorkingProcessSession = () => {
                 {
                     workingProcessData.map((it, idx: number) => (
                         <ProcessItem
-                            index={idx}
+                            index={idx + 1}
                             opened={idx == 0}
                             title={it.title}
                             description={it.description}

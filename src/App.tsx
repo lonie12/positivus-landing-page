@@ -13,7 +13,7 @@ import WorkingProcessSession from "./sections/working-process-section"
 function App() {
 
   return (
-    <div className="mx-auto px-[90px]  border">
+    <div className="mx-auto md:px-[80px]">
       <Navbar />
       <HeaderSection />
       <ServiceSection />

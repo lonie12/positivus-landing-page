@@ -21,7 +21,7 @@ const FooterSection = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex gap-[100] items-center mt-[60px]">
+            <div className="flex gap-[100px] items-center mt-[60px]">
                 <div className="flex flex-col gap-[28px] text-white">
                     <div className="bg-primary px-[7px] max-w-max rounded-smallRadius">
                         <h4 className="text-secondary text-[20px] font-medium">Contact Us:</h4>

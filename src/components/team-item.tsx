@@ -7,7 +7,7 @@ const TeamItem = ({ item }: { item: Team }) => {
             <div className="py-3 first:pt-0 last:pb-0 flex items-start">
                 <div className="flex gap-4 items-end">
                     <img className="w-[90px] " src={item.profile} />
-                    <div className="self-end border">
+                    <div className="self-end">
                         <h4 className="font-medium text-[20px]"> {item.name} </h4>
                         <p className="text-[16px]"> {item.role} </p>
                     </div>
@@ -17,7 +17,7 @@ const TeamItem = ({ item }: { item: Team }) => {
                 </div>
             </div>
             <div className="py-3 first:pt-0 last:pb-0">
-                <p className="text-[18px]"> {item.bio} </p>
+                <p className="text-[16px]"> {item.bio} </p>
             </div>
         </div>
     );
