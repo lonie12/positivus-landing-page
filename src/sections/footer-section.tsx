@@ -7,7 +7,7 @@ import {
 
 const FooterSection = () => {
   return (
-    <div className="mt-[140px] bg-secondary rounded-tr-largeRadius rounded-tl-largeRadius p-[55px]">
+    <div className="md:mx-[70px] mt-[140px] bg-secondary md:rounded-tr-largeRadius md:rounded-tl-largeRadius p-[55px]">
       <div className="flex justify-between items-center gap-[24px]  xl:flex-row flex-col">
         <img className="h-[56] w-56" src={appLogo2} />
         <div className="flex flex-col md:flex-row text-white text-[18px] items-center gap-5">

@@ -12,18 +12,20 @@ import "./styles/index.min.css";
 
 function App() {
   return (
-    <div className="max-width-container px-[15px]">
-      <Navbar />
-      <HeaderSection />
-      <ServiceSection />
-      <ProposalSection />
-      <CaseStudySection />
-      <WorkingProcessSession />
-      <TeamSection />
-      <TestimonialsSection />
-      <ContactUsSection />
+    <>
+      <div className="max-width-container px-[15px]">
+        <Navbar />
+        <HeaderSection />
+        <ServiceSection />
+        <ProposalSection />
+        <CaseStudySection />
+        <WorkingProcessSession />
+        <TeamSection />
+        <TestimonialsSection />
+        <ContactUsSection />
+      </div>
       <FooterSection />
-    </div>
+    </>
   );
 }
 

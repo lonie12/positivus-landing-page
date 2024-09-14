@@ -28,7 +28,7 @@ const HeaderSection = () => {
           </div>
           <div className="flex flex-col sm:flex-row gap-[20px] justify-center items-center lg:justify-start ">
             {" "}
-            <button className="max-w-max py-4 px-6 bg-secondary rounded-smallRadius">
+            <button className="max-w-max py-4 px-6  bg-secondary rounded-smallRadius">
               <span className="text-white">Book a consultation</span>
             </button>
             <button className="flex xl:hidden  max-w-max border rounded-smallRadius py-4 px-6">
@@ -39,13 +39,13 @@ const HeaderSection = () => {
 
         <img className="md:max-w-[45%] hidden lg:flex" src={campIllustration} />
       </div>
-      <div className="flex flex-col gap-[20px] lg:flex-row justify-between items-center my-[60px]">
+      <div className="grid grid-cols-2 gap-[20px] md:grid-cols-3 place-items-center lg:grid-cols-3 xl:grid-cols-6 justify-between items-center my-[60px]">
         <img src={amazonLogo} alt="" />
-        <img src={dribbbleLogo} alt={""} />
-        <img src={hubspotLogo} alt={""} />
-        <img src={notionLogo} alt={""} />
-        <img src={netflixLogo} alt={""} />
-        <img src={zoomLogo} alt={""} />
+        <img src={dribbbleLogo} alt="" />
+        <img src={hubspotLogo} alt="" />
+        <img src={notionLogo} alt="" />
+        <img src={netflixLogo} alt="" />
+        <img src={zoomLogo} alt="" />
       </div>
     </>
     // <div className="mx-auto flex flex-col md:flex-row md:gap-[100px] items-center">

@@ -10,7 +10,7 @@ const ContactUsSection = () => {
                 title="Contact Us"
                 description="Connect with Us: Let's Discuss Your Digital Marketing Needs"
             />
-            <div className="rounded-largeRadius flex justify-between pl-[100px] py-[40px] bg-[#F3F3F3] overflow-hidden mt-20 relative">
+            <div className="rounded-largeRadius flex justify-between px-[50px] md:pl-[100px] py-[40px] bg-[#F3F3F3] overflow-hidden mt-20 relative">
                 <div className="flex flex-col gap-10 md:w-[60%]">
                     <div className="flex items-center gap-[35px]">
                         <div className="flex items-center gap-[14px]">
@@ -22,7 +22,7 @@ const ContactUsSection = () => {
                             <span>Get a Quote</span>
                         </div>
                     </div>
-                    <div className="flex flex-col gap-[25px]">
+                    <div className="flex flex-col gap-[25px] w-full">
                         <div className="flex flex-col w-full">
                             <label htmlFor="name">Name</label>
                             <input placeholder="Name" className="outline-0 border border-secondary px-3 rounded-smallRadius h-[59px]" type="text" />
