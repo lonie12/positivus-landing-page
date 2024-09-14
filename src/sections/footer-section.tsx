@@ -7,7 +7,7 @@ import {
 
 const FooterSection = () => {
   return (
-    <div className="md:mx-[70px] mt-[140px] bg-secondary md:rounded-tr-largeRadius md:rounded-tl-largeRadius p-[55px]">
+    <div className="md:mx-[70px] mt-[40px] md:mt-[140px] bg-secondary md:rounded-tr-largeRadius md:rounded-tl-largeRadius px-[15px] py-[30px] md:p-[55px]">
       <div className="flex justify-between items-center gap-[24px]  xl:flex-row flex-col">
         <img className="h-[56] w-56" src={appLogo2} />
         <div className="flex flex-col md:flex-row text-white text-18-title items-center gap-5">
@@ -52,7 +52,7 @@ const FooterSection = () => {
             </p>
           </div>
         </div>
-        <div className="flex gap-5 bg-[#292A32] px-[40px] py-[58px] flex-col md:flex-row  items-center rounded-smallRadius w-full">
+        <div className="flex gap-5 bg-[#292A32] px-[24px] md:px-[40px] py-[58px] flex-col md:flex-row  items-center rounded-smallRadius w-full">
           <input
             className="px-3 rounded-smallRadius h-[58px] w-full sm:max-w-[75%]"
             type="email"

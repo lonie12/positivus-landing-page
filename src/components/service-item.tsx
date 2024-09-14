@@ -10,7 +10,7 @@ const ServiceItem = ({ item }: { item: ServiceItemProps }) => {
     <div className="bg-secondary overflow-hidden relative rounded-largeRadius md:h-[310px]">
       <div
         style={{ backgroundColor: itemBGColor(item.background) }}
-        className="h-full p-[45px] relative top-[-6px] grid grid-cols-2 items-center gap-[55px] rounded-b-largeRadius"
+        className="h-full p-[45px] relative top-[-6px] grid grid-cols-2 items-center gap-[24px] md:gap-[55px] rounded-b-largeRadius"
       >
         <div className="flex flex-col w-full h-full justify-between items-start">
           <div>
@@ -28,8 +28,8 @@ const ServiceItem = ({ item }: { item: ServiceItemProps }) => {
 export default ServiceItem;
 
 const ItemTitles = ({ bg, title }: { bg: string; title: string }) => (
-  <div className="px-[7px] rounded-[7px] max-w-max" style={{ background: bg }}>
-    <h3 className="font-medium text-[25px]">{title}</h3>
+  <div className="px-[7px] rounded-[7px] md:max-w-max" style={{ background: bg }}>
+    <h3 className="font-medium text-24-title">{title}</h3>
   </div>
 );
 

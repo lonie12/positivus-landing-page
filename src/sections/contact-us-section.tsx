@@ -5,12 +5,12 @@ import { contactIllustration } from "../helpers/assets";
 const ContactUsSection = () => {
 
     return (
-        <div className="mt-[140px]">
+        <div className="mt-[40px] md:mt-[140px]">
             <SectionTitle
                 title="Contact Us"
                 description="Connect with Us: Let's Discuss Your Digital Marketing Needs"
             />
-            <div className="rounded-largeRadius flex justify-between px-[50px] md:pl-[100px] py-[40px] bg-[#F3F3F3] overflow-hidden mt-20 relative">
+            <div className="rounded-largeRadius flex justify-between px-[50px] md:pl-[100px] py-[40px] bg-[#F3F3F3] overflow-hidden mt-5 md:mt-20 relative">
                 <div className="flex flex-col gap-10 md:w-[60%]">
                     <div className="flex items-center gap-[35px]">
                         <div className="flex items-center gap-[14px]">

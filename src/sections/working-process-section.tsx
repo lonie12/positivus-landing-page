@@ -7,7 +7,7 @@ import workingProcessData from "../data/working-process-data";
 const WorkingProcessSession = () => {
 
     return (
-        <div className="mt-[140px]">
+        <div className="mt-[40px] md:mt-[140px]">
             <SectionTitle
                 title="Our Working Process"
                 description="Step-by-Step Guide to Achieving Your Business Goals"
