@@ -13,26 +13,31 @@ const HeaderSection = () => {
     <>
       <div className="flex grid-cols-2 gap-[100px]">
         <div className="flex flex-col gap-[30px]">
-          <div className="font-medium text-[60px] leading-[64px]">
+          <div className="font-medium text-[60px] leading-[64px] text-start md:text-center lg:text-start">
             Navigating the digital landscape for success
           </div>
-          <div className="text-[20px] ">
+          <img
+            className="sm:max-w-[60%] flex lg:hidden "
+            style={{ alignSelf: "center" }}
+            src={campIllustration}
+          />
+          <div className="text-[20px] text-start md:text-center lg:text-start ">
             Our digital marketing agency helps businesses grow and succeed
             online through a range of services including SEO, PPC, social media
             marketing, and content creation.
           </div>
-          <div className="flex gap-[20px]">
+          <div className="flex flex-col sm:flex-row gap-[20px] justify-center items-center lg:justify-start ">
             {" "}
             <button className="max-w-max py-4 px-6 bg-secondary rounded-smallRadius">
               <span className="text-white">Book a consultation</span>
             </button>
-            <button className="flex xl:hidden border rounded-smallRadius py-4 px-[25px]">
-              <span className="font-normal text-[20px]">Request a quote</span>
+            <button className="flex xl:hidden  max-w-max border rounded-smallRadius py-4 px-6">
+              <span className="font-normal text-[18px]">Request a quote</span>
             </button>
           </div>
         </div>
 
-        <img className="md:max-w-[42%]" src={campIllustration} />
+        <img className="md:max-w-[45%] hidden lg:flex" src={campIllustration} />
       </div>
       <div className="flex justify-between items-center my-[60px]">
         <img src={amazonLogo} alt="" />
