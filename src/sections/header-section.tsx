@@ -27,16 +27,13 @@ const HeaderSection = () => {
             marketing, and content creation.
           </div>
           <div className="flex flex-col sm:flex-row gap-[20px] justify-center items-center lg:justify-start ">
-            {" "}
             <button className="md:max-w-max w-full py-4 px-6  bg-secondary rounded-smallRadius">
               <span className="text-[#fff] text-18-title">
                 Book a consultation
               </span>
             </button>
-            <button className="flex xl:hidden w-full   md:max-w-max border rounded-smallRadius py-4 px-6">
-              <span className=" text-[#000] text-18-title">
-                Request a quote
-              </span>
+            <button className="md:max-w-max w-full py-4 px-6 rounded-smallRadius xl:hidden border">
+              <span className="text-[#000] text-18-title">Request a quote</span>
             </button>
           </div>
         </div>

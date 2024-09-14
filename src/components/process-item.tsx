@@ -18,12 +18,15 @@ const ProcessItem = ({
   const handleOpenIcon = opened ? IconMinus : IconAdd;
   return (
     <div
-      className={`bg-[${backColor}] p-[24px] md:px-[60px] md:py-[41px] rounded-largeRadius border`}>
+      className={`bg-[${backColor}] p-[24px] md:px-[60px] md:py-[41px] rounded-largeRadius border`}
+    >
       <div className="flex flex-col-reverse md:flex-row items-end md:items-center justify-between">
         <div className="flex md:items-center flex-col-reverse md:flex-row items-start gap-[12px] md:gap-[25px] w-full">
           <div className="flex  items-center gap-[12px] md:gap-[25px] w-full">
             <span className="text-40-title">0{index}</span>
-            <span className="text-30-title font-medium">{title}</span>
+            <span className="text-30-title font-medium text-ellipsis overflow-hidden ... border">
+              {title}
+            </span>
           </div>
           <button className="self-end md:self-auto">
             <img
