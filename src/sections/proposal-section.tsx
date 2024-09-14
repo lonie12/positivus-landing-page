@@ -2,8 +2,8 @@ import { proposalFigure } from "../helpers/assets";
 
 const ProposalSection = () => {
   return (
-    <div className="flex flex-row bg-[#F3F3F3] rounded-largeRadius py-[24px]  xl:py-[0px] my-[140px] items-center px-[60px]">
-      <div className="flex flex-col gap-[26px]">
+    <div className="flex flex-row bg-[#F3F3F3] rounded-largeRadius px-[20px] xl:px-[60px] py-[24px] xl:py-[0px] my-[140px] items-center">
+      <div className="flex flex-col gap-[26px] border">
         <div>
           <h3 className="font-medium text-[30px]">Let’s make things happen</h3>
         </div>
@@ -19,8 +19,8 @@ const ProposalSection = () => {
           </button>
         </div>
       </div>
-      <div>
-        <img className="hidden lg:flex" src={proposalFigure} />
+      <div className="hidden lg:flex">
+        <img className="" src={proposalFigure} />
       </div>
     </div>
   );

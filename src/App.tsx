@@ -13,7 +13,7 @@ import "./styles/index.min.css";
 function App() {
   return (
     <>
-      <div className="max-width-container px-[15px]">
+      <div className="max-width-container px-[15px] border">
         <Navbar />
         <HeaderSection />
         <ServiceSection />

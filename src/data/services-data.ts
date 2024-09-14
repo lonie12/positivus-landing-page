@@ -10,7 +10,7 @@ import {
 export default [
   {
     title1: "Search engine",
-    title2: "Search engine",
+    title2: "optimization",
     illustration: service1Figure,
     background: "other",
   },
