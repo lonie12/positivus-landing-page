@@ -5,10 +5,12 @@ const ProposalSection = () => {
     <div className="flex flex-row bg-[#F3F3F3] rounded-largeRadius px-[20px] xl:px-[60px] py-[24px] xl:py-[0px] my-[140px] items-center">
       <div className="flex flex-col gap-[26px] border">
         <div>
-          <h3 className="font-medium text-[30px]">Let’s make things happen</h3>
+          <h3 className="font-medium text-30-title">
+            Let’s make things happen
+          </h3>
         </div>
         <div>
-          <p className="text-[18px]">
+          <p className="text-18-title">
             Contact us today to learn more about how our digital marketing
             services can help your business grow and succeed online.
           </p>

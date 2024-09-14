@@ -13,7 +13,7 @@ const HeaderSection = () => {
     <>
       <div className="flex grid-cols-2 gap-[100px]">
         <div className="flex flex-col gap-[30px]">
-          <div className="font-medium text-[60px] leading-[64px] text-start md:text-center lg:text-start">
+          <div className="font-medium text-60-title md:leading-[64px] text-start md:text-center lg:text-start">
             Navigating the digital landscape for success
           </div>
           <img
@@ -21,18 +21,22 @@ const HeaderSection = () => {
             style={{ alignSelf: "center" }}
             src={campIllustration}
           />
-          <div className="text-[20px] text-start md:text-center lg:text-start ">
+          <div className="text-20-title text-start md:text-center lg:text-start ">
             Our digital marketing agency helps businesses grow and succeed
             online through a range of services including SEO, PPC, social media
             marketing, and content creation.
           </div>
           <div className="flex flex-col sm:flex-row gap-[20px] justify-center items-center lg:justify-start ">
             {" "}
-            <button className="max-w-max py-4 px-6  bg-secondary rounded-smallRadius">
-              <span className="text-white">Book a consultation</span>
+            <button className="md:max-w-max w-full py-4 px-6  bg-secondary rounded-smallRadius">
+              <span className="text-[#fff] text-18-title">
+                Book a consultation
+              </span>
             </button>
-            <button className="flex xl:hidden  max-w-max border rounded-smallRadius py-4 px-6">
-              <span className="font-normal text-[18px]">Request a quote</span>
+            <button className="flex xl:hidden w-full   md:max-w-max border rounded-smallRadius py-4 px-6">
+              <span className=" text-[#000] text-18-title">
+                Request a quote
+              </span>
             </button>
           </div>
         </div>
@@ -50,7 +54,7 @@ const HeaderSection = () => {
     </>
     // <div className="mx-auto flex flex-col md:flex-row md:gap-[100px] items-center">
     //     <div className="flex flex-col md:w-1/2 text-left gap-35 border">
-    //         <h1 className="text-[60px] leading-[64px] font-medium">
+    //         <h1 className="text-60-title leading-[64px] font-medium">
     //             Navigating the <br /> digital landscape <br /> for success
     //         </h1>
     //         <p className="text-gray-600">

@@ -10,7 +10,7 @@ const FooterSection = () => {
     <div className="md:mx-[70px] mt-[140px] bg-secondary md:rounded-tr-largeRadius md:rounded-tl-largeRadius p-[20px] md:p-[55px]">
       <div className="flex justify-between items-center gap-[24px]  xl:flex-row flex-col">
         <img className="h-[56] w-56" src={appLogo2} />
-        <div className="flex flex-col md:flex-row text-white text-[18px] items-center gap-5">
+        <div className="flex flex-col md:flex-row text-white text-18-title items-center gap-5">
           <a href="" className="">
             About Us
           </a>
@@ -36,18 +36,18 @@ const FooterSection = () => {
       <div className="flex flex-col xl:flex-row gap-[50px]  xl:gap-[100px] items-center mt-[60px]">
         <div className="flex flex-col gap-[28px] items-center lg:items-start ">
           <div className="bg-primary px-[7px]  max-w-max rounded-smallRadius">
-            <h4 className="text-secondary text-[20px] font-medium">
+            <h4 className="text-secondary text-20-title font-medium">
               Contact Us:
             </h4>
           </div>
           <div className="gap-[28px] flex flex-col lg:flex-row xl:flex-col text-white">
-            <p className="text-[18px] text-center lg:text-start ">
+            <p className="text-18-title text-center lg:text-start ">
               Email: info@positivus.com
             </p>
-            <p className="text-[18px] text-center lg:text-start">
+            <p className="text-18-title text-center lg:text-start">
               Phone: 555-567-8901
             </p>
-            <p className="text-[18px] text-center lg:text-start">
+            <p className="text-18-title text-center lg:text-start">
               Address: 1234 Main St Moonstone City, Stardust State 12345
             </p>
           </div>

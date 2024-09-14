@@ -16,32 +16,32 @@ const Navbar = () => {
         <img className="h-[56]" src={appLogo} />
         <div className="hidden lg:flex items-center gap-10">
           <div>
-            <a href="" className="font-normal text-[20px]">
+            <a href="" className="font-normal text-20-title">
               About Us
             </a>
           </div>
           <div>
-            <a href="" className="font-normal text-[20px]">
+            <a href="" className="font-normal text-20-title">
               Services
             </a>
           </div>
           <div>
-            <a href="" className="font-normal text-[20px]">
+            <a href="" className="font-normal text-20-title">
               Use Cases
             </a>
           </div>
           <div>
-            <a href="" className="font-normal text-[20px]">
+            <a href="" className="font-normal text-20-title">
               Pricing
             </a>
           </div>
           <div>
-            <a href="" className="font-normal text-[20px]">
+            <a href="" className="font-normal text-20-title">
               Blog
             </a>
           </div>
           <button className="hidden xl:flex border rounded-smallRadius py-4 px-[25px]">
-            <span className="font-normal text-[20px]">Request a quote</span>
+            <span className="font-normal text-20-title">Request a quote</span>
           </button>
         </div>
         <div className="lg:hidden">
@@ -61,27 +61,27 @@ const Navbar = () => {
             </div>
             <div className=" flex flex-col gap-[24px] right-0  top-0 bg-neutral-900  h-full p-12 pb-2 rounded-s-2xl">
               <div>
-                <a href="" className="font-normal text-[#fff] text-[20px]">
+                <a href="" className="font-normal text-[#fff] text-20-title">
                   About Us
                 </a>
               </div>
               <div>
-                <a href="" className="font-normal text-[#fff] text-[20px]">
+                <a href="" className="font-normal text-[#fff] text-20-title">
                   Services
                 </a>
               </div>
               <div>
-                <a href="" className="font-normal  text-[#fff] text-[20px]">
+                <a href="" className="font-normal  text-[#fff] text-20-title">
                   Use Cases
                 </a>
               </div>
               <div>
-                <a href="" className="font-normal text-[#fff] text-[20px]">
+                <a href="" className="font-normal text-[#fff] text-20-title">
                   Pricing
                 </a>
               </div>
               <div>
-                <a href="" className="font-normal text-[#fff] text-[20px]">
+                <a href="" className="font-normal text-[#fff] text-20-title">
                   Blog
                 </a>
               </div>

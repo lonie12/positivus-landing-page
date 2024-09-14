@@ -3,7 +3,7 @@ import { contactIllustration } from "../helpers/assets";
 
 const ContactUsSection = () => {
   return (
-    <div className="mt-[140px]">
+    <div className="mt-[40px] md:mt-[140px]">
       <SectionTitle
         title="Contact Us"
         description="Connect with Us: Let's Discuss Your Digital Marketing Needs"

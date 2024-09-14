@@ -31,8 +31,11 @@ const ServiceItem = ({ item }: { item: ServiceItemProps }) => {
 export default ServiceItem;
 
 const ItemTitles = ({ bg, title }: { bg: string; title: string }) => (
-  <div className="px-[7px] rounded-[7px] max-w-max" style={{ background: bg }}>
-    <h3 className="font-medium text-[25px]">{title}</h3>
+  <div
+    className="px-[7px] rounded-[7px] md:max-w-max"
+    style={{ background: bg }}
+  >
+    <h3 className="font-medium text-24-title">{title}</h3>
   </div>
 );
 
