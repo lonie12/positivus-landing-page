@@ -39,7 +39,7 @@ const HeaderSection = () => {
 
         <img className="md:max-w-[45%] hidden lg:flex" src={campIllustration} />
       </div>
-      <div className="flex justify-between items-center my-[60px]">
+      <div className="flex flex-col gap-[20px] lg:flex-row justify-between items-center my-[60px]">
         <img src={amazonLogo} alt="" />
         <img src={dribbbleLogo} alt={""} />
         <img src={hubspotLogo} alt={""} />

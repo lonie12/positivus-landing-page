@@ -9,7 +9,7 @@ const ServiceSection = () => {
         title="Services"
         description="At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:"
       />
-      <div className="grid-container grid grid-cols-2 gap-10 w-full">
+      <div className="grid-container grid lg:grid-cols-2  grid-cols-1 gap-10 w-full">
         {servicesData.map((e) => (
           <ServiceItem item={e} />
         ))}

@@ -1,5 +1,6 @@
 // Icons
 export const appLogo = "/icons/logo.svg";
+export const appLogo2 = "/icons/logo2.svg";
 export const campIllustration = "/icons/camp-illustration.svg";
 export const amazonLogo = "/icons/amazon.svg";
 export const dribbbleLogo = "/icons/dribbble.svg";
