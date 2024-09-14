@@ -24,10 +24,10 @@ export default CaseStudySection;
 const StudyItem = ({ description }: { description: string }) => {
 
     return (
-        <div className="px-6 first:pl-0 last:pr-0 text-white text-[18px]">
+        <div className="px-6 first:pl-0 last:pr-0 text-white text-18-title">
             <p>{description}</p>
             <div className="flex items-center mt-5 gap-[15px] ">
-                <span className="text-primary text-[20px]">Learn more</span>
+                <span className="text-primary text-20-title">Learn more</span>
                 <img src={IconMore} />
             </div>
         </div>

@@ -8,7 +8,7 @@ const TeamItem = ({ item }: { item: Team }) => {
                 <div className="flex gap-4 items-end">
                     <img className="w-[90px] " src={item.profile} />
                     <div className="self-end">
-                        <h4 className="font-medium text-[20px]"> {item.name} </h4>
+                        <h4 className="font-medium text-20-title"> {item.name} </h4>
                         <p className="text-[16px]"> {item.role} </p>
                     </div>
                 </div>
